@@ -25,7 +25,17 @@
       "filters": "[]",
       "height": 720.00,
       "name": "ReportSection",
-      "visualContainers": [],
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"04194279ce005e7e04c9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":284.7684130599848,\"y\":87.47152619589978,\"z\":0,\"width\":300.31890660592256,\"height\":300.31890660592256}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"yellow_tripdata_2020-04.totalrecords\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"y\",\"Entity\":\"yellow_tripdata_2020-04\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"totalrecords\"},\"Name\":\"yellow_tripdata_2020-04.totalrecords\",\"NativeReferenceName\":\"totalrecords\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"y\"}},\"Property\":\"totalrecords\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 300.32,
+          "width": 300.32,
+          "x": 284.77,
+          "y": 87.47,
+          "z": 0.00
+        }
+      ],
       "width": 1280.00
     }
   ]
